@@ -1,7 +1,7 @@
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 /// Class only use in order to give access to StaggeredTile to users
-class ScaledTile extends StaggeredTile {
+class ScaledTile extends MasonryGridTile {
   /// Creates a [ScaledTile] with the given [crossAxisCellCount] that
   /// fit its main axis extent to its content.
   ///
